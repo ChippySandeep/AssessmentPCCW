@@ -1,0 +1,27 @@
+{
+    "name": "pccw",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx playwright test",
+        "allureReport": "allure serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "moduleResolution": "node",
+    "description": "",
+    "devDependencies": {
+        "@playwright/test": "^1.47.0",
+        "@types/crypto-js": "^4.2.2",
+        "@types/node": "^22.5.4",
+        "allure-playwright": "^3.0.0-beta.12",
+        "eslint": "^9.10.0",
+        "playwright": "^1.47.0",
+        "typescript": "^5.5.4",
+        "zod": "^3.23.8"
+    },
+    "dependencies": {
+        "crypto-js": "^4.2.0"
+    }
+}
